@@ -1,0 +1,9 @@
+This is iPLON HA Load Balancing Service
+
+Built from standard HA Proxy Images
+
+haproxy.cfg - Fail Forward architecture where primary and replica is written, if any primary fails exisiting replica will be promoted to primary, till original primary is back online ( Replica is backup )
+
+harproxy2.cfg - similar to fail forward with increased responsiveness
+
+haproxy3.cfg - Load balancer configuration, Both Primary and Replica is present and load balancing configuration is done
